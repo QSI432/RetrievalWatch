@@ -1,4 +1,4 @@
-# RetrievalWatch: Retrieval-Consistent RAG Caching over Mutable Data
+# RetrievalWatch
 
 This repository contains the source code for the paper:
 

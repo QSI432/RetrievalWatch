@@ -1,0 +1,6 @@
+{"op": "commit", "changes": {"1": {"id": 1, "version": 1, "vector": [1, 0], "text": "2:alpha"}, "2": {"id": 2, "version": 1, "vector": [0.8, 0.2], "text": "1:beta"}}}
+{"op": "register", "name": "example", "query": {"text": "alpha", "vector": [1, 0], "L": 2, "k": 1, "guards": 1}}
+{"op": "request", "name": "example"}
+{"op": "commit", "changes": {"3": {"id": 3, "version": 1, "vector": [1, 0], "text": "3:alpha updated"}}}
+{"op": "request", "name": "example"}
+{"op": "request", "name": "example", "epoch": 1}
